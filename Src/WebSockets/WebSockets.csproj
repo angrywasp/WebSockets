@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Library.targets"/>
+    <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Pack.targets"/>
+    <Import Project="../Nuget.Common.targets"/>
+    <PropertyGroup>
+        <PackageId>AngryWasp.Ninja.WebSockets</PackageId>
+        <PackageDescription>Repackaging of the Ninja.Websockets library</PackageDescription>
+    </PropertyGroup>
+</Project>
